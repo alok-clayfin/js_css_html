@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        /* unvisited link */
+        a:link {
+          color: red;
+        }
+        
+        /* visited link */
+        a:visited {
+          color: green;
+        }
+        
+        /* mouse over link */
+        a:hover {
+          color: hotpink;
+        }
+        
+        /* selected link */
+        a:active {
+          color: blue;
+        }
+
+        h3{
+            display: none;
+            background-color: yellow;
+            padding: 20px;
+        }
+
+        div:hover h3{
+            display: block;
+        }
+        </style>
+</head>
+<body>
+    <body>
+
+        <h2>Styling a link depending on state</h2>
+        
+        <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+        
+        <div>
+            Hover over this div element to show the h3 element
+            <h3>Hey! Look at me!</h3>
+        </div>
+        
+        </body>
+</body>
+</html>
